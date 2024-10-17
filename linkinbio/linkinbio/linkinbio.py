@@ -20,15 +20,15 @@ def link_button(name: str, url: str, icon: str) -> rx.Component:
     )
 
 def index() -> rx.Component:
-    name = "Your Name"
-    pronouns = "Your pronouns here"
-    bio = "Your short bio here"
-    avatar_url = "https://example.com/your-avatar.jpg"
+    name = "Erin Mikail Staples"
+    pronouns = "she/her/hers"
+    bio = "Developer Experience Engineer @ LaunchDarkly"
+    avatar_url = "https://avatars.githubusercontent.com/erinmikailstaples"
     links = [
-        {"name": "Website", "url": "https://example.com", "icon": "globe"},
-        {"name": "Twitter", "url": "https://twitter.com/yourusername", "icon": "twitter"},
-        {"name": "GitHub", "url": "https://github.com/yourusername", "icon": "github"},
-        {"name": "LinkedIn", "url": "https://linkedin.com/in/yourusername", "icon": "linkedin"},
+        {"name": "Website", "url": "https://erinmikailstaples.com", "icon": "globe"},
+        {"name": "Twitter", "url": "https://twitter.com/erinmikail", "icon": "twitter"},
+        {"name": "GitHub", "url": "https://github.com/erinmikailstaples", "icon": "github"},
+        {"name": "LinkedIn", "url": "https://linkedin.com/in/erinmikail", "icon": "linkedin"},
     ]
     return rx.center(
         rx.vstack(
