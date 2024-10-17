@@ -1,8 +1,9 @@
 import reflex as rx
 from linkinbio.style import *
-# add launchdarkly import
+# add launchdarkly imports
 import ldclient
 from ldclient.config import Config
+from ldclient import Context
 
 # initialize LD client
 ldclient.set_config(Config("LD_SDK_KEY"))
